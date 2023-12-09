@@ -1,0 +1,45 @@
+{
+  "name": "root",
+  "contents": [
+    {
+      "name": "dir1",
+      "contents": [
+        { "name": "file1.txt", "size": 1200 },
+        { "name": "file2.txt", "size": 1500 },
+        {
+          "name": "subdir1",
+          "contents": [
+            { "name": "file3.txt", "size": 500 },
+            { "name": "file4.txt", "size": 800 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "dir2",
+      "contents": [
+        { "name": "file5.txt", "size": 300 },
+        { "name": "file6.txt", "size": 950 }
+      ]
+    },
+    {
+      "name": "dir3",
+      "contents": [
+        {
+          "name": "subdir2",
+          "contents": [
+            { "name": "file7.txt", "size": 430 },
+            { "name": "file8.txt", "size": 620 },
+            {
+              "name": "subsubdir1",
+              "contents": [
+                { "name": "file9.txt", "size": 210 }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    { "name": "file10.txt", "size": 100 }
+  ]
+}
